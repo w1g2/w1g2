@@ -13,6 +13,8 @@ You can click the Preview link to take a look at your changes.
 
 [w1g2.com]: https://104.200.28.75 "w1g2.com"
 [w1g2.com/run/wall]: https://104.200.28.75/run/wall "w1g2.com/run/wall"
+[w1g2.com/run/qa]: https://104.200.28.75/run/qa "w1g2.com/run/qa"
+[w1g2.com/run/q/101]: https://104.200.28.75/run/q/101 "w1g2.com/run/q/101"
 [w1g2.com/run/use]: https://104.200.28.75/run/use "w1g2.com/run/use"
 [w1g2.com/run/node]: https://104.200.28.75/run/node "w1g2.com/run/node"
 [w1g2.com/run/isp]: https://104.200.28.75/run/isp "w1g2.com/run/isp"
@@ -33,8 +35,6 @@ w1g2.com 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，�
 
 一个 IP 一天只能领取一个 WireGuard 通信码，但通信码是可以共享的，你几个手机和计算机可以只用一个，不影响任何一个的速度，只有在几个同时用时，才会影响他们的速度。
 
-服务器运行一段时间后，会开始回收利用过去60天内没被人用过的节点，按生成时间来排，需要一个新的，就回收一个，没新节点需要，就没回收。
-
 ![w1g2](w1g2.png "w1g2.png")
 
 
@@ -42,6 +42,9 @@ w1g2.com 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，�
 ### 使用说明
 * [w1g2.com/run/wall][] : 节点群组的对端（Endpoint） <br/>
 服务器的 ip 或 port 可能时不时被墙，确认后服务器会做一定的调整然后重启，这时你的 __WireGuard 节点肯定不工作了，证明就是，WireGuard 的传输统计栏里的接受数字不会再增加__。发生这种情况后，用你的局域网 IP 地址（Address），在网页里找到对应的（192.168.1??.*/24）行，同一行开头的 __ip:port__，必须符合你的对端（Endpoint），如果不符合，手动修改后可以继续工作。
+
+* [w1g2.com/run/qa][] : 节点最后一次使用的日期和有效公钥的前8位 <br/>
+过去60天内没被人用过的节点会被服务器回收利用，按节点最后使用的日期来排，需要一个新的，就回收一个。另外还可以用 [w1g2.com/run/q/101][] 只查看第1个节点群组，这里101是局域网IP(192.168.101.*)的第3节，以此类推，用102~109替代101可以查看第2个到第9个节点群组。
 
 * [w1g2.com/run/use][] : 当天连过线的节点和当前在线的节点（最右端有[n]标志） <br/>
 每个当天用过的节点都会列出来，加上它们上一次连接是多少时间之前，以及它们上传和下载的流量。另外成功开通 WireGuard 后，w1g2.com 首页也会显示你的节点今天的流量累计。
