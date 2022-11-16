@@ -17,6 +17,7 @@ You can click the Preview link to take a look at your changes.
 [w1g2.com/run/q/101]: https://104.200.28.75/run/q/101 "w1g2.com/run/q/101"
 [w1g2.com/run/use]: https://104.200.28.75/run/use "w1g2.com/run/use"
 [w1g2.com/run/node]: https://104.200.28.75/run/node "w1g2.com/run/node"
+[w1g2.com/run/usage]: https://104.200.28.75/run/usage "w1g2.com/run/usage"
 [w1g2.com/run/isp]: https://104.200.28.75/run/isp "w1g2.com/run/isp"
 [w1g2.com/run/top]: https://104.200.28.75/run/top "w1g2.com/run/top"
 [w1g2.com/run/sta]: https://104.200.28.75/run/sta "w1g2.com/run/sta"
@@ -55,7 +56,9 @@ w1g2.com 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，�
 
 ---
 ### 网站公示
-* [w1g2.com/run/isp][] : 当天用过翻墙从中国来的服务商
+* [w1g2.com/run/usage][] : 当天每分钟的用户数和流量的增加
+
+* [w1g2.com/run/isp][] : 当天中国用户的来源和从属于的服务商
 
 * [w1g2.com/run/top][] : 服务器实时运行的全部后台程序
 
