@@ -11,20 +11,20 @@ You can click the Preview link to take a look at your changes.
 --->
 
 
-[w1g2.com]: https://104.200.28.75 "w1g2.com"
-[w1g2.com/run/wall]: https://104.200.28.75/run/wall "w1g2.com/run/wall"
-[w1g2.com/run/qa]: https://104.200.28.75/run/qa "w1g2.com/run/qa"
-[w1g2.com/run/q/101]: https://104.200.28.75/run/q/101 "w1g2.com/run/q/101"
-[w1g2.com/run/use]: https://104.200.28.75/run/use "w1g2.com/run/use"
-[w1g2.com/run/node]: https://104.200.28.75/run/node "w1g2.com/run/node"
-[w1g2.com/run/usage]: https://104.200.28.75/run/usage "w1g2.com/run/usage"
-[w1g2.com/run/isp]: https://104.200.28.75/run/isp "w1g2.com/run/isp"
-[w1g2.com/run/top]: https://104.200.28.75/run/top "w1g2.com/run/top"
-[w1g2.com/run/sta]: https://104.200.28.75/run/sta "w1g2.com/run/sta"
-[w1g2.com/run/stat]: https://104.200.28.75/run/stat "w1g2.com/run/stat"
+[w1g2.com]: https://172.104.9.208 "w1g2.com"
+[w1g2.com/run/wall]: https://172.104.9.208/run/wall "w1g2.com/run/wall"
+[w1g2.com/run/qa]: https://172.104.9.208/run/qa "w1g2.com/run/qa"
+[w1g2.com/run/q/101]: https://172.104.9.208/run/q/101 "w1g2.com/run/q/101"
+[w1g2.com/run/use]: https://172.104.9.208/run/use "w1g2.com/run/use"
+[w1g2.com/run/node]: https://172.104.9.208/run/node "w1g2.com/run/node"
+[w1g2.com/run/usage]: https://172.104.9.208/run/usage "w1g2.com/run/usage"
+[w1g2.com/run/isp]: https://172.104.9.208/run/isp "w1g2.com/run/isp"
+[w1g2.com/run/top]: https://172.104.9.208/run/top "w1g2.com/run/top"
+[w1g2.com/run/sta]: https://172.104.9.208/run/sta "w1g2.com/run/sta"
+[w1g2.com/run/stat]: https://172.104.9.208/run/stat "w1g2.com/run/stat"
 [wireguard]: https://wireguard.com/install "wireguard.com/install"
 
-## [w1g2.com][] (ip: 104.200.28.75)
+## [w1g2.com][] (ip: 172.104.9.208)
 w1g2.com 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，以上链接是域名的数字地址而不是平常的域名地址，浏览器会显示安全警告，点击 Advanced，确认证书是赋予 www.w1g2.com 的，然后选择继续。
 
 在使用 w1g2.com 前，你需要从开源网站 [WireGuard][] 下载和安装适合你系统的软件（国内用户请额外参考本页底部的 __安装方法__）。WireGuard 的技术设计和安全考虑都是一流的，已融入 Linux 系统的内核，是当今高科技界的主流 VPN 软件，而且服务器端和用户端的软件全部开源，质量有保证，没有见不得人的黑箱。
