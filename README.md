@@ -22,6 +22,7 @@ You can click the Preview link to take a look at your changes.
 [w1g2.com/run/top]: https://172.104.9.208/run/top "w1g2.com/run/top"
 [w1g2.com/run/sta]: https://172.104.9.208/run/sta "w1g2.com/run/sta"
 [w1g2.com/run/stat]: https://172.104.9.208/run/stat "w1g2.com/run/stat"
+[w1g2.com/run/stay]: https://172.104.9.208/run/stay "w1g2.com/run/stay"
 [wireguard]: https://wireguard.com/install "wireguard.com/install"
 
 ## [w1g2.com][] ( ip: 172.104.9.208 <sub>since 2022-11-30 12:54</sub> )
@@ -65,6 +66,8 @@ w1g2.com 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，�
 * [w1g2.com/run/sta][] : 服务器过去30天的运行数据总结
 
 * [w1g2.com/run/stat][] : 用户节点过去10天的运行数据总结
+
+* [w1g2.com/run/stay][] : 在线节点过去7天的统计数据
 
 
 ---
