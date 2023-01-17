@@ -11,22 +11,22 @@ You can click the Preview link to take a look at your changes.
 --->
 
 
-[w1g2.com]: https://139.144.234.162 "w1g2.com"
-[w1g2.com/run/wall]: https://139.144.234.162/run/wall "w1g2.com/run/wall"
-[w1g2.com/run/qa]: https://139.144.234.162/run/qa "w1g2.com/run/qa"
-[w1g2.com/run/q/101]: https://139.144.234.162/run/q/101 "w1g2.com/run/q/101"
-[w1g2.com/run/use]: https://139.144.234.162/run/use "w1g2.com/run/use"
-[w1g2.com/run/node]: https://139.144.234.162/run/node "w1g2.com/run/node"
-[w1g2.com/run/usage]: https://139.144.234.162/run/usage "w1g2.com/run/usage"
-[w1g2.com/run/isp]: https://139.144.234.162/run/isp "w1g2.com/run/isp"
-[w1g2.com/run/top]: https://139.144.234.162/run/top "w1g2.com/run/top"
-[w1g2.com/run/sta]: https://139.144.234.162/run/sta "w1g2.com/run/sta"
-[w1g2.com/run/stat]: https://139.144.234.162/run/stat "w1g2.com/run/stat"
-[w1g2.com/run/stay]: https://139.144.234.162/run/stay "w1g2.com/run/stay"
+[w1g2.com]: https://170.187.163.37 "w1g2.com"
+[w1g2.com/run/wall]: https://170.187.163.37/run/wall "w1g2.com/run/wall"
+[w1g2.com/run/qa]: https://170.187.163.37/run/qa "w1g2.com/run/qa"
+[w1g2.com/run/q/101]: https://170.187.163.37/run/q/101 "w1g2.com/run/q/101"
+[w1g2.com/run/use]: https://170.187.163.37/run/use "w1g2.com/run/use"
+[w1g2.com/run/node]: https://170.187.163.37/run/node "w1g2.com/run/node"
+[w1g2.com/run/usage]: https://170.187.163.37/run/usage "w1g2.com/run/usage"
+[w1g2.com/run/isp]: https://170.187.163.37/run/isp "w1g2.com/run/isp"
+[w1g2.com/run/top]: https://170.187.163.37/run/top "w1g2.com/run/top"
+[w1g2.com/run/sta]: https://170.187.163.37/run/sta "w1g2.com/run/sta"
+[w1g2.com/run/stat]: https://170.187.163.37/run/stat "w1g2.com/run/stat"
+[w1g2.com/run/stay]: https://170.187.163.37/run/stay "w1g2.com/run/stay"
 [day.w1g2.com]: https://day.w1g2.com "day.w1g2.com"
 [wireguard]: https://wireguard.com/install "wireguard.com/install"
 
-## [w1g2.com][] ( ip: 139.144.234.162 <sub>since 2023-01-11 19:36</sub> )
+## [w1g2.com][] ( ip: 170.187.163.37 <sub>since 2023-01-17 10:28</sub> )
 w1g2.com 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，以上链接是域名的数字地址而不是平常的域名地址，浏览器会显示安全警告，点击 Advanced，确认证书是赋予 www.w1g2.com 的，然后选择继续。
 
 在使用 w1g2.com 前，你需要从开源网站 [WireGuard][] 下载和安装适合你系统的软件（国内用户请额外参考本页底部的 __安装方法__）。WireGuard 的技术设计和安全考虑都是一流的，已融入 Linux 系统的内核，是当今高科技界的主流 VPN 软件，而且服务器端和用户端的软件全部开源，质量有保证，没有见不得人的黑箱。
