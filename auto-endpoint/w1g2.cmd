@@ -61,7 +61,7 @@ if [%bell%]==[] (
   goto :probe
 )
 echo.
-choice.exe /c MS /d M /t 30 /m "Keep querying endpoint? [M]ore | Skip "
+choice /c MS /d M /t 30 /m "Keep querying endpoint? [M]ore | Skip "
 if errorlevel 2 goto :quest
 if errorlevel 1 goto :probe
 if errorlevel 0 goto :probe
@@ -70,7 +70,7 @@ if errorlevel 0 goto :probe
 wg.exe
 echo.
 echo %DATE% %TIME%
-choice.exe /c CQE /d C /t 300 /m "[C]heck received | Query endpoint | Exit wireguard "
+choice /c CQE /d C /t 300 /m "[C]heck received | Query endpoint | Exit wireguard "
 if errorlevel 3 goto :undo
 if errorlevel 2 goto :probe
 if errorlevel 1 goto :loop
