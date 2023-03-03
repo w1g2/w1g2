@@ -32,7 +32,7 @@ call :getvar "endpoint" pep
 echo.    From %COMPUTERNAME%: Endpoint = %pep%
 call :service stop
 set ep=
-for /f "tokens=1" %%i in ('PowerShell -Command "(Invoke-WebRequest -TimeoutSec 9 -UseBasicParsing https://w1g2.com/run/wall).Content" 2^>nul ^| findstr /c:"192.168.1%pep:~-2%."') do set ep=%%i
+for /f "tokens=1" %%i in ('curl -skL w1g2.com/run/wall ^| findstr /c:"192.168.1%pep:~-2%."') do set ep=%%i
 if [%ep%]==[] (
   echo WARNING: Fail to query w1g2.com
 ) else (
