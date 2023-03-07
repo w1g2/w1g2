@@ -1,7 +1,7 @@
 @echo off
 setlocal
 set WG=w1g2
-set CONF=%USERPROFILE%\Desktop\%WG%.conf
+set CONF=%~dp0%WG%.conf
 set SCID=WireGuardTunnel$%WG%
 
 if not exist "%CONF%" (
