@@ -74,7 +74,7 @@ wg_off () {
   fi
 }
 set_ep () {
-  local wgip=$(curl -skLm 9 "35.247.124.154/ip/w1g2.com")
+  local wgip=$(curl -skLm 9 "34.168.15.41/ip/w1g2.com")
   if echo $wgip |grep -qx "[1-9][0-9.]*"; then
     x=$(uci get wireguard.@proxy[0].main_server)
     x=$(uci show |grep -x "wireguard\.wg_peer_.*\.name='$x'" |cut -d'=' -f1)
