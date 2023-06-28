@@ -74,7 +74,7 @@ wg_off () {
   fi
 }
 set_ep () {
-  local wgip=$(curl -skLm 9 "34.168.15.41/ip/w1g2.com")
+  local wgip=$(curl -skLm 9 "github.com/w1g2" |sed -n "s/^.* ip@1: \([^ ]*\) .*$/\1/p")
   if echo $wgip |grep -qx "[1-9][0-9.]*"; then
     x=$(uci get wireguard.@proxy[0].main_server)
     x=$(uci show |grep -x "wireguard\.wg_peer_.*\.name='$x'" |cut -d'=' -f1)
@@ -94,18 +94,18 @@ set_ep () {
       echo "Err|curl|run/wall"
     fi
   else
-    echo "Err|curl|ip/w1g2.com"
+    echo "Err|curl|ip/w1g2.org"
   fi
 }
 check_sh () {
-  curl -skLm 9 "w1g2.com/sh/" \
+  curl -skLm 9 "w1g2.org/sh/" \
   |grep -qxF "FN=$FN"
 }
 get_sh () {
-  curl -skLm 9 "w1g2.com/sh/?${FV%-*}" >$SN.sh
+  curl -skLm 9 "w1g2.org/sh/?${FV%-*}" >$SN.sh
   if ! cmp -s $0 $SN.sh; then
     local nfv=$(grep "^FV=" $SN.sh |cut -d'=' -f2-)
-    local md5=$(curl -skLm 9 "w1g2.com/sh/md5.cgi?$nfv")
+    local md5=$(curl -skLm 9 "w1g2.org/sh/md5.cgi?$nfv")
     [ "$(md5sum $SN.sh |cut -d' ' -f1)" = "$md5" ] || return 1
     cp $SN.sh $0.tmp
     logger -s -t $FN "sh|$FV|$nfv" 2>&1

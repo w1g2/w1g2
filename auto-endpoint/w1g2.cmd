@@ -27,16 +27,16 @@ echo Start %SCID%
 call :service start || goto :err
 
 :probe
-echo - Querying w1g2.com for wireguard endpoint ...
+echo - Querying w1g2.org for wireguard endpoint ...
 call :getvar "endpoint" pep
 echo.    From %COMPUTERNAME%: Endpoint = %pep%
 call :service stop
 set ep=
-for /f "tokens=1" %%i in ('curl -skL w1g2.com/run/wall ^| findstr /c:"192.168.1%pep:~-2%."') do set ep=%%i
+for /f "tokens=1" %%i in ('curl -skL w1g2.org/run/wall ^| findstr /c:"192.168.1%pep:~-2%."') do set ep=%%i
 if [%ep%]==[] (
-  echo WARNING: Fail to query w1g2.com
+  echo WARNING: Fail to query w1g2.org
 ) else (
-  echo.    From w1g2.com: Endpoint = %ep%
+  echo.    From w1g2.org: Endpoint = %ep%
 )
 
 echo Restart %SCID%
@@ -46,9 +46,9 @@ call :getvar "peer" pkey
 wg.exe set %WG% peer "%pkey%" endpoint "%ep%"
 
 :loop
-echo - Pinging w1g2.com for wireguard received ...
+echo - Pinging w1g2.org for wireguard received ...
 call :getrx prx
-ping w1g2.com >nul
+ping w1g2.org >nul
 call :getrx rx
 echo.    Received(B) before and after ping: %prx% - %rx%
 if not [%prx%]==[%rx%] (
