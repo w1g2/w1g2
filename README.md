@@ -12,22 +12,22 @@ You can click the Preview link to take a look at your changes.
 
 
 [w1g2.org]: https://45.79.165.151 "w1g2.org"
-[w1g2.org/run/wall]: https://45.79.165.151/run/wall "w1g2.org/run/wall"
-[w1g2.org/run/qa]: https://45.79.165.151/run/qa "w1g2.org/run/qa"
-[w1g2.org/run/q/101]: https://45.79.165.151/run/q/101 "w1g2.org/run/q/101"
-[w1g2.org/run/use]: https://45.79.165.151/run/use "w1g2.org/run/use"
-[w1g2.org/run/usage]: https://45.79.165.151/run/usage "w1g2.org/run/usage"
-[w1g2.org/run/isp]: https://45.79.165.151/run/isp "w1g2.org/run/isp"
-[w1g2.org/run/top]: https://45.79.165.151/run/top "w1g2.org/run/top"
-[w1g2.org/run/sta]: https://45.79.165.151/run/sta "w1g2.org/run/sta"
-[w1g2.org/run/stat]: https://45.79.165.151/run/stat "w1g2.org/run/stat"
-[w1g2.org/run/stay]: https://45.79.165.151/run/stay "w1g2.org/run/stay"
-[w1g2.org/run/stap]: https://45.79.165.151/run/stap "w1g2.org/run/stap"
+[w1g2.org/run/wall]: http://45.79.165.151/run/wall "w1g2.org/run/wall"
+[w1g2.org/run/qa]: http://45.79.165.151/run/qa "w1g2.org/run/qa"
+[w1g2.org/run/q/101]: http://45.79.165.151/run/q/101 "w1g2.org/run/q/101"
+[w1g2.org/run/use]: http://45.79.165.151/run/use "w1g2.org/run/use"
+[w1g2.org/run/usage]: http://45.79.165.151/run/usage "w1g2.org/run/usage"
+[w1g2.org/run/isp]: http://45.79.165.151/run/isp "w1g2.org/run/isp"
+[w1g2.org/run/top]: http://45.79.165.151/run/top "w1g2.org/run/top"
+[w1g2.org/run/sta]: http://45.79.165.151/run/sta "w1g2.org/run/sta"
+[w1g2.org/run/stat]: http://45.79.165.151/run/stat "w1g2.org/run/stat"
+[w1g2.org/run/stay]: http://45.79.165.151/run/stay "w1g2.org/run/stay"
+[w1g2.org/run/stap]: http://45.79.165.151/run/stap "w1g2.org/run/stap"
 [day.w1g2.org]: https://day.w1g2.org "day.w1g2.org"
 [wireguard]: https://wireguard.com/install "wireguard.com/install"
 
 ## [w1g2.org][] ( ip@1: 45.79.165.151 <sub>since 2023-06-17 13:00</sub> )
-w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，以上链接是域名的数字地址而不是平常的域名地址，浏览器会显示安全警告，点击 Advanced，确认证书是赋予 www.w1g2.org 的，然后选择继续。
+w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，以上链接是域名的数字地址而不是平常的域名地址，浏览器会显示安全警告，点击 Advanced，确认证书是赋予 w1g2.org 的，然后选择继续。
 
 在使用 w1g2.org 前，你需要从开源网站 [WireGuard][] 下载和安装适合你系统的软件（国内用户请额外参考本页底部的 __安装方法__）。WireGuard 的技术设计和安全考虑都是一流的，已融入 Linux 系统的内核，是当今高科技界的主流 VPN 软件，而且服务器端和用户端的软件全部开源，质量有保证，没有见不得人的黑箱。
 
