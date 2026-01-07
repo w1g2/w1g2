@@ -18,7 +18,7 @@ set_up () {
   x=/etc/crontabs/root
   cp $x $SN.cron
   grep -vwF "$sh" $SN.cron >$x
-  echo '*/5 10 * * *' "S=$sh;" \
+  echo '*/5 10-12 * * *' "S=$sh;" \
     '$S; if [ -s $S.tmp ]; then cat $S.tmp >$S; rm -f $S.tmp; fi' >>$x
   /etc/init.d/cron restart
   echo "--- $x ---"
@@ -74,7 +74,7 @@ wg_off () {
   fi
 }
 set_ep () {
-  local wgip=$(curl -skLm 9 "github.com/w1g2" |sed -n "s/^.* ip@1: \([^ ]*\) .*$/\1/p")
+  local wgip=$(curl -skLm 9 "github.com/w1g2" |sed -n "s/^.* ip@: \([^ ]*\) .*$/\1/p")
   if echo $wgip |grep -qx "[1-9][0-9.]*"; then
     x=$(uci get wireguard.@proxy[0].main_server)
     x=$(uci show |grep -x "wireguard\.wg_peer_.*\.name='$x'" |cut -d'=' -f1)
