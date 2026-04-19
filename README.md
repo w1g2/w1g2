@@ -26,7 +26,7 @@ You can click the Preview link to take a look at your changes.
 [wireguard]: https://wireguard.com/install "wireguard.com/install"
 
 ## [w1g2.org][] ( ip@: 45.79.165.151 <sub>since 2023-06-17 13:00</sub> )
-w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，以上链接是域名的数字地址而不是平常的域名地址，浏览器会显示安全警告，点击 Advanced，确认证书是赋予 w1g2.org 的，然后选择继续。
+w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，以上链接是域名的数字地址而不是平常的域名地址。
 
 在使用 w1g2.org 前，你需要从开源网站 [WireGuard][] 下载和安装适合你系统的软件（国内用户请额外参考本页底部的 __安装方法__）。WireGuard 的技术设计和安全考虑都是一流的，已融入 Linux 系统的内核，是当今高科技界的主流 VPN 软件，而且服务器端和用户端的软件全部开源，质量有保证，没有见不得人的黑箱。
 
@@ -35,7 +35,7 @@ w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，�
 * 计算机系统直接下载 conf 文件，再导入到安装好的程序中
 * 在 conf 文件的链接上，按右键显示内容在新的页面上，可以用于手动输入设置
 
-每个 IP 每天只能领取一个 WireGuard 通信码，但通信码是可以共享的，你几个手机和计算机可以共用一个，几个同时用时会影响一点速度。你可以把通信码网页存盘（Firefox 用 html only，其他用 complete），所有的 zip/conf 文件和通信码都已嵌在同一个文件里，今后用浏览器打开可再现同样的网页。
+每个 IP 每天只能领取一个 WireGuard 通信码，但通信码是可以共享的。你可以把通信码网页存盘（Firefox 用 html only，其他用 complete），所有的 zip/conf 文件和通信码都已嵌在同一个文件里，今后用浏览器打开可再现同样的网页。
 
 ![w1g2](w1g2.png "w1g2.png")
 
@@ -43,7 +43,7 @@ w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，�
 ---
 ### 使用说明
 * [w1g2.org/run/wall][] : 节点群组的对端（Endpoint） <br/>
-服务器的 port 可能时不时被墙，确认后服务器会自动做一定的调整，这时你的 __WireGuard 节点肯定不工作了，证明就是，WireGuard 的传输统计栏里的接受数字不会再增加__。发生这种情况后，用你的局域网 IP 地址（Address），在以上网页里找到对应群组的 __ip:port__，手动修改你的对端（Endpoint），然后就可以继续工作了。
+服务器的端口可能时不时被墙，确认后服务器会自动调整（+100），这时你的 __WireGuard 节点肯定不工作了，证明就是，WireGuard 的传输统计栏里的接受数字不会再增加__。发生这种情况后，用你的局域网 IP 地址（Address），在以上网页里找到对应群组的 __ip:port__，手动修改你的对端（Endpoint），然后就可以继续工作了。
 <br/><br/>
 在安卓或苹果手机上修改对端的具体步骤（注意，只改“对端”一个值！）：<br/>
   1\. 点击名字看具体的各个设置值<br/>
@@ -55,7 +55,7 @@ w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，�
   7. 开通WireGuard重新开始工作<br/>
 <br/>
 
-* [w1g2.org/run/use][] : 当天连过线的节点和当前在线的节点（最右端有 [n] 标志） <br/>
+* [w1g2.org/run/use][] : 当天连过线的节点和当前在线的节点（最右端有 |n 标志） <br/>
 每个当天用过的节点都会列出来，加上它们上一次连接是今天的什么时间，以及它们上传和下载的流量。另外成功开通 WireGuard 后，w1g2.org 首页也会显示你的节点今天的流量累计。
 <br/><br/>
 一个机器一天内可能用过多个节点，如果这些节点的上传和下载流量总和超过 __2000(MB)__，服务器会封这个机器的 IP 地址，直到第二天零点所有节点清零，服务器重新开始计算。__你的机器 IP 被封后，你必须断开 WireGuard，否则哪里都去不了，包括本网站__。想核实的话，断开后可以去 w1g2 首页，首页会告诉你的机器 IP 是否已被封，没有的话会显示正常首页。
@@ -90,10 +90,10 @@ w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，�
 ---
 ### 安装方法
 * __Windows 系统__ <br/>
-WireGuard 网站为 Windows 系统提供的 EXE 安装文件，安装过程中需要联系他们自己的网站下载适合你机器的 MSI 文件，但网站本身就是被墙的，所以安装会失败。注意在 [Download Windows Installer][wireguard] 链接下面，还有一个 [Browse MSIs] 的链接，点进去以后，使用 Windows 7 以上系统的，选第一个 MSI ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/wireguard-amd64-0.5.3.msi) ) 下载安装。使用 Windows XP 系统的，选第三个 MSI ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/wireguard-x86-0.5.3.msi) ) 下载安装。
+WireGuard 网站为 Windows 系统提供的 EXE 安装文件，安装过程中需要联系他们自己的网站下载适合你机器的 MSI 文件，但网站本身就是被墙的，所以安装会失败。注意在 [Download Windows Installer][wireguard] 链接下面，还有一个 [Browse MSIs] 的链接，点进去以后，使用 Windows 7 以上系统的，选第一个 MSI ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/wireguard-amd64-1.0.msi) ) 下载安装。使用 Windows XP 系统的，选第三个 MSI ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/wireguard-x86-1.0.msi) ) 下载安装。
 
 * __安卓手机__ <br/>
-无法用谷歌 Play Store 直接安装 WireGuard 的中国安卓手机，可以去 WireGuard 官方网站，注意在 Android 的 [Download from Play Store][wireguard] 下面有 F-Droid 的链接，从那里可以直接下载 APK 文件 ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/com.wireguard.android-1.0.20250531.apk) )，然后手动在安卓手机上安装。这个链接列在 WireGuard 的官方网页里，等于有他们团队的背书。
+无法用谷歌 Play Store 直接安装 WireGuard 的中国安卓手机，可以去 WireGuard 官方网站，注意在 Android 的 [Download from Play Store][wireguard] 下面有 F-Droid 的链接，从那里可以直接下载 APK 文件 ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/com.wireguard.android-1.0.20260315.apk) )，然后手动在安卓手机上安装。这个链接列在 WireGuard 的官方网页里，等于有他们团队的背书。
 
 * __苹果手机__ <br/>
 用中国区账号的苹果手机，必须先在 App Store（不是手机设置）里退出，再暂时登录一个美国区账号，然后搜索下载安装 WireGuard，最后退出再登录原来的中国区账号。下面链接的知乎文章详细解释了怎么登记一个新的美国区账号 ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/us-acct.pdf) ) ： <br/>
