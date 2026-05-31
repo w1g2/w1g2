@@ -26,7 +26,7 @@ You can click the Preview link to take a look at your changes.
 [wireguard]: https://wireguard.com/install "wireguard.com/install"
 
 ## [w1g2.org][] ( ip@: 45.79.165.151 <sub>since 2023-06-17 13:00</sub> )
-w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，以上链接是域名的数字地址而不是平常的域名地址。
+w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，本页的本网链接都是域名的数字地址而不是平常的域名地址。
 
 在使用 w1g2.org 前，你需要从开源网站 [WireGuard][] 下载和安装适合你系统的软件（国内用户请额外参考本页底部的 __安装方法__）。WireGuard 的技术设计和安全考虑都是一流的，已融入 Linux 系统的内核，是当今高科技界的主流 VPN 软件，而且服务器端和用户端的软件全部开源，质量有保证，没有见不得人的黑箱。
 
