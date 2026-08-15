@@ -90,10 +90,10 @@ w1g2.org 是使用 WireGuard 开源技术的公益翻墙 VPN。为了抗墙，�
 ---
 ### 安装方法
 * __Windows 系统__ <br/>
-WireGuard 网站为 Windows 系统提供的 EXE 安装文件，安装过程中需要联系他们自己的网站下载适合你机器的 MSI 文件，但网站本身就是被墙的，所以安装会失败。注意在 [Download Windows Installer][wireguard] 链接下面，还有一个 [Browse MSIs] 的链接，点进去以后，使用 Windows 7 以上系统的，选第一个 MSI ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/wireguard-amd64-1.0.msi) ) 下载安装。使用 Windows XP 系统的，选第三个 MSI ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/wireguard-x86-1.0.msi) ) 下载安装。
+WireGuard 网站为 Windows 系统提供的 EXE 安装文件，安装过程中需要联系他们自己的网站下载适合你机器的 MSI 文件，但网站本身就是被墙的，所以安装会失败。注意在 [Download Windows Installer][wireguard] 链接下面，还有一个 [Browse MSIs] 的链接，点进去以后，使用 Windows 7 以上系统的，选第一个 MSI ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/wireguard-amd64-1.1.msi) ) 下载安装。使用 Windows XP 系统的，选第三个 MSI ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/wireguard-x86-1.1.msi) ) 下载安装。
 
 * __安卓手机__ <br/>
-无法用谷歌 Play Store 直接安装 WireGuard 的中国安卓手机，可以去 WireGuard 官方网站，注意在 Android 的 [Download from Play Store][wireguard] 下面有 F-Droid 的链接，从那里可以直接下载 APK 文件 ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/com.wireguard.android-1.0.20260315.apk) )，然后手动在安卓手机上安装。这个链接列在 WireGuard 的官方网页里，等于有他们团队的背书。
+无法用谷歌 Play Store 直接安装 WireGuard 的中国安卓手机，可以去 WireGuard 官方网站，注意在 Android 的 [Download from Play Store][wireguard] 下面有 "Download APK File" 的链接，从那里可以直接下载 APK 文件 ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/com.wireguard.android-1.0.20260315.apk) )，然后手动在安卓手机上安装。
 
 * __苹果手机__ <br/>
 用中国区账号的苹果手机，必须先在 App Store（不是手机设置）里退出，再暂时登录一个美国区账号，然后搜索下载安装 WireGuard，最后退出再登录原来的中国区账号。下面链接的知乎文章详细解释了怎么登记一个新的美国区账号 ( [本地链接](https://raw.githubusercontent.com/w1g2/w1g2/main/wg-clients/us-acct.pdf) ) ： <br/>
